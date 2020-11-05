@@ -1,5 +1,8 @@
-body {
-  font: 100% Helvetica, sans-serif;
-  color: #333; }
+#main-nav {
+  background: #032f3e; }
+
+section h1 {
+  font-size: 28px;
+  color: #032f3e; }
 
 /*# sourceMappingURL=styles.css.map */

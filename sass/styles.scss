@@ -1,0 +1,18 @@
+// $font-stack:    Helvetica, sans-serif
+// $primary-color: #333
+
+// body
+//  font: 100% $font-stack
+//  color: $primary-color
+
+$deepblue: #032f3e;
+$section_header :28px;
+
+#main-nav {
+    background: $deepblue;
+}
+
+section h1{
+    font-size: $section_header;
+    color:$deepblue;
+}

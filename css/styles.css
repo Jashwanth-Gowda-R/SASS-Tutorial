@@ -40,7 +40,7 @@ li {
     text-align: center;
     display: block; }
     #main-nav a:hover {
-      background: #333; }
+      background: red; }
 
 section h1 {
   font-size: 28px;
@@ -114,5 +114,19 @@ section h1 {
     text-align: center;
     font-size: 40px;
     color: orange; }
+
+#projects li {
+  float: left;
+  width: 23.5%;
+  margin-right: 2%;
+  margin-bottom: 2%; }
+  #projects li:nth-child(4n) {
+    margin-right: 0; }
+  #projects li img {
+    width: 100%; }
+#projects h1 {
+  text-align: center;
+  font-size: 40px;
+  color: orange; }
 
 /*# sourceMappingURL=styles.css.map */

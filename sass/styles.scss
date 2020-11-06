@@ -27,7 +27,7 @@
         text-align:center;
         display:block;
         &:hover{
-            background:red;
+            background:lighten($deepblue,6);
         }
     }
 } //end of #main-nav
@@ -74,7 +74,7 @@ section h1{
         color:$deepblue;
         font-weight:bold;
         &:hover{
-            color:red;
+            color:complement($deepblue);
         }
     }
     ul{
